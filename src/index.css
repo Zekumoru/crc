@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply border-2 rounded p-2 border-neutral-300;
+  }
+}
+
+@layer utilities {
+  .form-control {
+    @apply flex flex-col gap-2;
+  }
+}
