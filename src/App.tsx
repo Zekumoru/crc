@@ -149,7 +149,28 @@ function App() {
             )}
           </div>
         </main>
-        <footer></footer>
+
+        <footer className="mt-4 text-black">
+          <div className="font-bold">Credits</div>
+          <div>
+            <a
+              href="https://github.com/Zekumoru/crc"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              © Zekumoru 2024
+            </a>{' '}
+            |{' '}
+            <a
+              href="https://www.flaticon.com/free-icons/message"
+              title="message icons"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Favicon from Flaticon
+            </a>
+          </div>
+        </footer>
       </div>
     </div>
   );
